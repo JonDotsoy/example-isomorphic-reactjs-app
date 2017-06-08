@@ -27,16 +27,20 @@ const templateMain = template(`
 </html>
 `)
 
-app.use(express.static('www'))
-
-app.get('/', function (req, res) {
+function renderApp (req, res) {
   res.type('html').end(
     templateMain({
       title: 'a title',
-      body: ReactDOMServer.renderToString(<App />)
+      body: ReactDOMServer.renderToString(<App path={req.path} preparePushState={() => {}}/>)
     })
   )
-})
+}
+
+
+app.use(express.static('www'))
+
+app.get('/', renderApp)
+app.get('/page/:name', renderApp)
 
 const server = app.listen(3000, function () {
   const {address, port} = server.address()
