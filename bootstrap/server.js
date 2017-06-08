@@ -12,6 +12,13 @@ const templateMain = template(`
   <head>
     <meta charset="UTF-8">
     <title><%= title %></title>
+    <!-- reset style -->
+    <style>
+      body {
+        margin: 0px;
+        box-sizing: border-box;
+      }
+    </style>
   </head>
   <body>
     <div id="app"><%= body %></app>
