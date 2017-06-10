@@ -1,5 +1,6 @@
 {
-  "name": "ssr",
+  "name": "example-isomorphic-reactjs-app",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +10,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.5.2",
