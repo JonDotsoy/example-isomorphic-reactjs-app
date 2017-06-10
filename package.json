@@ -9,7 +9,11 @@
     "client": "webpack --watch bootstrap/client.js"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Jonathan Delgado",
+    "email": "hi@jon.soy",
+    "url": "https://jon.soy"
+  },
   "license": "MIT",
   "dependencies": {
     "babel-loader": "^7.0.0",
