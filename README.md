@@ -2,7 +2,7 @@
 
 Este proyecto muestra un ejemplo de una aplicación isomórfica con ReactJS.
 
-> Un especial agradecimiento a [@fforres](https://github.com/fforres) por la oportunidad de realizar este presentación en el [Meetup JS -> CallBack to the Future](https://www.meetup.com/es-ES/Javascript-Chile/events/238295773/) para la comunidad de [noders](http://noders.com/).
+> Un especial agradecimiento a [@fforres](https://github.com/fforres) por la oportunidad de realizar esta presentación en [Meetup JS -> CallBack to the Future](https://www.meetup.com/es-ES/Javascript-Chile/events/238295773/) para la comunidad de [noders](http://noders.com/).
 
 [![Presentación](https://imgur.com/KkDoEtv.png)](https://goo.gl/Fhh04J)
 
@@ -23,11 +23,11 @@ Abre una nueva consola, de tal modo que tengas 2 consolas abiertas.
 
 > Recuerda estar en la ruta del proyecto antes de ejecutar los comandos.
 
-En una de ellas ejecutar el servidor
+En una de ellas montaremos el servidor
 
     $ npm run server
 
-En la otra compila el bandle del cliente
+En la otra compilaremos el **bandle** del proyecto
 
     $ npm run client
 
